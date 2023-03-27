@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+    
+}
+body{
+    background:url(../image/hero.jpg) ;
+        background-size: cover;
+    display: flex;
+    flex-direction: column;
+   font-family: "Poppins", sans-serif; 
+   font-weight:300 ;
+   color: #b9cec1;
+   justify-content: center;
+
+}
+
+h1{
+    font-size: 6rem;
+    margin-top: 150px;
+    align-items: center;
+    margin-left: 137px;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+.time{
+    font-size: 5rem;
+}
+.date{
+    font-size: 3rem;
+    padding-top: 10px;
+}
